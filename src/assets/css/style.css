@@ -1,0 +1,48 @@
+html,
+body {
+  @apply p-0 m-0;
+}
+
+div {
+  @apply m-0 p-0;
+}
+
+.btn {
+  @apply border-none text-[1rem] px-[0.9rem] py-[0.65rem] rounded-[0.25rem] cursor-pointer focus:outline-none focus:ring focus:ring-violet-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white;
+}
+
+.btn-secondary {
+  @apply bg-gray-600 text-white;
+}
+
+.btn-success {
+  @apply bg-green-700 text-white;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white;
+}
+
+.btn-warning {
+  @apply bg-yellow-400 text-black;
+}
+
+.btn-info {
+  @apply bg-gray-300 text-black;
+}
+
+.btn-light {
+  @apply bg-gray-100 text-black;
+}
+
+.btn-dark {
+  @apply bg-gray-900 text-white;
+}
+
+.btn-link {
+  @apply bg-transparent text-blue-600 underline;
+}
